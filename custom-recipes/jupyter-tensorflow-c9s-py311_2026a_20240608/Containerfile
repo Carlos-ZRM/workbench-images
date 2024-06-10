@@ -1,4 +1,4 @@
-FROM workbench-images:base-c9s-py311_2026a_20240608
+FROM quay.io/opendatahub-contrib/runtime-images:base-c9s-py311_2023c_latest
 
 LABEL name="workbench-images:jupyter-tensorflow-c9s-py311_2026a_20240608" \
     summary="jupyter-tensorflow workbench image with Python py311 based on c9s" \
